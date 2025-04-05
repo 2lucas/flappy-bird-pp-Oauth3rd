@@ -227,7 +227,7 @@ function startGame() {
         clearInterval(pipeIntervalId);
     }
 
-    pipeIntervalId = setInterval(placePipes, 3500); 
+    pipeIntervalId = setInterval(placePipes, 3300); 
 }
 
 
