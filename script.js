@@ -190,7 +190,7 @@ function handleKeyDown(e) {
 
 
             // Faz o pássaro pular sozinho por um tempo curto (ex: 5 segundos)
-            let autoJumpDuration = 3900; 
+            let autoJumpDuration = 4300; 
             let autoJumpInterval = setInterval(() => {
                 velocityY = -2.6; // Faz o pássaro pular automaticamente
             }, 400);
