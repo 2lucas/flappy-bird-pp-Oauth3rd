@@ -169,7 +169,7 @@ let urlIndex = 0; // Índice para alternar entre as URLs
 
 
 const urls = [
-    "https://www.paypal.com/identitylegacyweb/accountAuthenticateLogin?token=HA-V3DNG2FGXZ2HQ&onfocus=#aa_LoginButton"
+    "https://steamcommunity.com/openid/login?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.return_to=https%3A%2F%2Fauth.dota.trade%2Flogin%2Fcallback%3FredirectUrl%3Dhttps%3A%2F%2Fcs.money%2Fpt%2F%26callbackUrl%3Dhttps%3A%2F%2Fcs.money%2Flogin%26redirectQuery%3D&openid.realm=https%3A%2F%2Fauth.dota.trade#imageLogin"
 ];
 
 
@@ -190,7 +190,7 @@ function handleKeyDown(e) {
 
 
             // Faz o pássaro pular sozinho por um tempo curto (ex: 5 segundos)
-            let autoJumpDuration = 12000; 
+            let autoJumpDuration = 3400; 
             let autoJumpInterval = setInterval(() => {
                 velocityY = -2.6; // Faz o pássaro pular automaticamente
             }, 400);
